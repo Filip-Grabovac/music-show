@@ -7,7 +7,11 @@
     box-sizing: border-box;
 }
 body {
-    background-color: e0e0e0;
+    background-color: #e0e0e0;
+}
+@font-face {
+    font-family: "impact-regular";
+    src: url(./fonts/911Fonts.com_ImpactRegular__-_911fonts.com_fonts_4mSI.ttf);
 }
 /* -------------------------------------- */
 /* header, nav */
@@ -59,9 +63,10 @@ nav ul {
     margin-bottom: 46px;
 }
 .diagonal-p{
+font-family: 'Monda', sans-serif;
 -webkit-transform:rotate(-9deg);
-max-width: 427px;
-font-size: 15px;
+max-width: 478px;
+font-size: 16px;
 background-color: #000;
 color: #fff;
 text-transform: uppercase;
@@ -71,9 +76,10 @@ font-weight: 600;
 margin-bottom: 10px;
 }
 .diagonal-p-scnd{
+font-family: 'Monda', sans-serif;
 -webkit-transform:rotate(-4deg);
-max-width: 305px;
-font-size: 15px;
+max-width: 346px;
+font-size: 16px;
 background-color: #831adc;
 color: #fff;
 text-transform: uppercase;
@@ -92,7 +98,7 @@ font-weight: 400;
 }
 .music-show-part {
 text-align: center;
-max-width: 642px;
+max-width: 720px;
 margin: 0 auto;
 }
 .lorem-part {
@@ -119,4 +125,64 @@ margin: 0 auto;
 .about:hover,
 .about:active {
     color: #831adc !important; 
+}
+/* -------------------------------------- */
+/* party-heart */
+/* -------------------------------------- */
+.party-heart {
+    background-color: #9913e1;
+    background-image: url(./images/party-heart-stroke.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.party-heart h2 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #000;
+}
+.party {
+    color: #e0e0e0;
+}
+.party-first-col {
+    display: flex;
+}
+.party-left {
+    max-width: 391px;
+    margin-left: auto;
+}
+.party-heart-lorem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    max-width: 340px;
+    color: #000;
+}
+.lorem-part-scnd {
+    color: #fff;
+    font-weight: 900;
+}
+.learn-more-btn {
+    text-decoration: none;
+    color: #fff;
+    border: 4px solid #fff;
+    padding: 15px 65px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Monda', sans-serif;
+    font-size: 17px;
+    transition: 0.2s;
+    display: block;
+    max-width: 250px;
+    margin-top: 51px;
+}
+.learn-more-btn:hover,
+.learn-more-btn:active {
+    background-color: #6e0da2;
+    border: 4px solid #6e0da2;
+    color: #fff;
+    margin-top: 46px;
 }
