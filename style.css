@@ -1,0 +1,122 @@
+/* -------------------------------------- */
+/* basic setup */
+/* -------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: e0e0e0;
+}
+/* -------------------------------------- */
+/* header, nav */
+/* -------------------------------------- */
+.header-scnd-part {
+    background-image: url(./images/singer.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav ul {
+    list-style: none;
+}
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: myriad-arabic,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-right: 67px;
+}
+.navbar-nav .nav-link:last-child {
+    margin-right: 0;
+}
+.header-first-part {
+    background-image: url(./images/paper-tear.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+    padding-bottom: 100px;
+    
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.nav-row {
+    padding: 0 50px;
+}
+.nav-margin {
+    margin-top:  85px;
+}
+.music-show-img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 46px;
+}
+.diagonal-p{
+-webkit-transform:rotate(-9deg);
+max-width: 427px;
+font-size: 15px;
+background-color: #000;
+color: #fff;
+text-transform: uppercase;
+padding: 3px 50px;
+margin-bottom: 0;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.diagonal-p-scnd{
+-webkit-transform:rotate(-4deg);
+max-width: 305px;
+font-size: 15px;
+background-color: #831adc;
+color: #fff;
+text-transform: uppercase;
+padding: 3px 20px;
+margin: 0 auto;
+font-weight: 600;
+}
+.music-show-lorem {
+font-family: Arial, Helvetica, sans-serif;
+max-width: 403px;
+font-size: 15px;
+text-align: center;
+margin: 40px auto 0 auto;
+color: #000;
+font-weight: 400;
+}
+.music-show-part {
+text-align: center;
+max-width: 642px;
+margin: 0 auto;
+}
+.lorem-part {
+    color: #831adc;
+    font-weight: 900;
+}
+.header-arrow-down {
+    position: absolute;
+    bottom: 109px;
+    left: 86px;
+}
+.home,
+.event,
+.tickets,
+.about {
+    transition: color 0.2s !important;
+}
+.home:hover,
+.home:active,
+.event:hover,
+.event:active,
+.tickets:hover,
+.tickets:active,
+.about:hover,
+.about:active {
+    color: #831adc !important; 
+}
