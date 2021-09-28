@@ -211,7 +211,6 @@ align-self: flex-end;
 margin-right: -55px;
 margin-top: 15px;
 }
-
 .slider-diagonal-p-scnd {
     font-family: 'Monda', sans-serif;
 -webkit-transform:rotate(2deg);
@@ -227,8 +226,10 @@ margin-top: 50px;
 .slider-first-col {
     display: flex;
     flex-direction: column;
+    background-image: url(./images/slider-grey-circle.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
-
 .slider-first-lorem {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -239,7 +240,6 @@ margin-top: 50px;
     margin-left: auto;
     margin-top: 60px;
 }
-
 .slider-lorem-span {
     color: #831adc;
     font-weight: 900;
@@ -261,4 +261,167 @@ margin-top: 50px;
 }
 .slider-row{
     margin-top: 50px;
+}
+/* -------------------------------------- */
+/* tickets */
+/* -------------------------------------- */
+.tickets-bg {
+    background-image: url(./images/tickets-grunge.png);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+.tickets-first-col {
+    background-image: url(./images/tickets-image1.png);
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.tickets-scnd-col {
+    background-image: url(./images/tickets-img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tickets-third-col {
+    background-image: url(./images/tickets-img3.png);
+    height: 875px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tickets-content-row h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 96px;
+    color: #000;
+    margin-top: 145px;
+    margin-bottom: 70px;
+}
+.reserve {
+    color: #9913e1;
+}
+.tickets-lorem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    max-width: 329px;
+    margin: 0 auto;
+}
+.tickets-lorem-span{
+    color: #831adc;
+    font-weight: 900;
+}
+.learn-more-tickets {
+    text-decoration: none;
+    color: #831adc;
+    border: 4px solid #831adc;
+    padding: 13px 65px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Monda', sans-serif;
+    font-size: 17px;
+    transition: 0.2s;
+    display: block;
+    max-width: 250px;
+    margin: 30px auto 0 auto;
+}
+.learn-more-tickets:hover,
+.learn-more-tickets:active {
+    background-color: #6e0da2;
+    border: 4px solid #6e0da2;
+    color: #fff;
+    margin-top: 25px;
+}
+.tickets-content-row {
+    position: relative;
+}
+.tickets-container{
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
+.reserve-col {
+    text-align: right;
+    padding-right: 0 !important;
+}
+.tickets-first-col-bg{
+    background-image: url(./images/reserve-paper-tear.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 250px;
+}
+.tickets-scnd-col-bg{
+    background-image: url(./images/reserve-scnd-bg.png);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tickets-diagonal{
+    font-family: 'Monda', sans-serif; 
+}
+.tickets-slider-p {
+    font-family: 'Monda', sans-serif;
+    background-color: #000;
+color: #fff;
+margin-top: 300px;
+-webkit-transform:rotate(-4deg);
+text-transform: uppercase;
+padding: 3px 20px;
+font-weight: 600;
+text-align: center;
+margin: 0 auto;
+max-width: 418px;
+margin-top: 15px;
+}
+.tickets-slider-p-scnd {
+    font-family: 'Monda', sans-serif;
+-webkit-transform:rotate(-1deg);
+max-width: 346px;
+font-size: 16px;
+background-color: #831adc;
+color: #fff;
+text-transform: uppercase;
+padding: 3px 20px;
+margin-top: 15px;
+margin: 20px auto 0 auto;
+font-weight: 600;
+}
+.tickets-slider-lorem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    max-width: 329px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.reserve-bg {
+    background-image: url(./images/tickets-grey-circle.png);
+    background-repeat: no-repeat;
+    height: 225px;
+    background-position: center;
+}
+.tickets-button {
+    position: relative !important;
+    display: inline-block !important;
+}
+.ticket-btns {
+    display: flex;
+    max-width: 367px;
+    margin: 120px auto 0 auto;
+}
+.learn-more-reserve {
+    margin-top: 70px;
+}
+.tickets-arrow-right {
+    margin-left: auto;
+}
+.tickets-last-part {
+    background-image: url(./images/tickets-last-section-bg.png);
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -18,7 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Monda&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="container-fluid">
             <div class="row navbar-row">
                 <div class="col-md-8 header-first-part">
@@ -26,7 +26,7 @@
                         <div class="row nav-row">
                             <nav class="navbar navbar-expand-lg navbar-light">
                                 <div class="container-fluid">
-                                    <a href="#"><img src="./images/logo.png"></a>
+                                    <a href="#home"><img src="./images/logo.png"></a>
                                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                   </button>
@@ -50,7 +50,7 @@
                           </div>
                       </div>
                         <p class="music-show-lorem"><span class="lorem-part">Lorem ipsum dolor sit amet</span> consectetur adipisicing elit, sed do ei usmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                          <a href="#"><img class="header-arrow-down" src="./images/header-arrow-down.png" alt="Arrow"></a>
+                          <a href="#party"><img class="header-arrow-down" src="./images/header-arrow-down.png" alt="Arrow"></a>
                 </div>
                 <div class="col-md-4 header-scnd-part">         
                 </div>
@@ -58,7 +58,7 @@
         </div>
       </header>
 
-    <section class="party-heart">
+    <section id="party" class="party-heart">
       <div class="container">
         <div class="row">
           <div class="col-md-6 party-first-col">
@@ -131,12 +131,104 @@
       </div>
     </section>
 
+
+    <section class="tickets">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 tickets-first-col">
+            </div>
+            <div class="col-md-8 tickets-scnd-col">
+            </div>
+          </div>
+          <div class="row tickets-content-row">
+            <div class="col-md-4 tickets-third-col">
+            </div>
+            <div class="col-md-8 tickets-bg">
+              <h2><span class="reserve">Reserve</span> Tickets</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="tickets-lorem"><span class="tickets-lorem-span">Lorem ipsum dolor sit amet</span> consectetur adip isicing elit, sed do ei usmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+                    <a class="learn-more-tickets" href="#">Learn more</a>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="tickets-lorem"><span class="tickets-lorem-span">Lorem ipsum dolor sit amet</span> consectetur adip isicing elit, sed do ei usmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+                    <a class="learn-more-tickets" href="#">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid tickets-container">
+              <div class="row">
+                    <div class="col-md-3 offset-md-3 reserve-col">
+                      <img class="img-fluid reserve-img1" src="./images/reserve-tickets-img1.png" alt="">
+                    </div>
+                    <div class="col-md-3 reserve-col">
+                      <img class="img-fluid" src="./images/reserve-tickets-img2.png" alt="">
+                    </div>
+                    <div class="col-md-3 reserve-col">
+                      <img class="img-fluid" src="./images/reserve-tickets-img3.png" alt="">
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 tickets-first-col-bg">
+              <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="reserve-bg">
+                    <div class="carousel-item active tickets-item">
+                      <p class="tickets-slider-p">A place to quench your thirst for music</p>
+                      <p class="tickets-slider-p-scnd">Party out with us for three days</p>
+                      <p class="tickets-slider-lorem"><span class="slider-lorem-span">Lorem ipsum dolor sit amet</span> consecettur adip isicing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a class="learn-more-tickets learn-more-reserve" href="#">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item tickets-item">
+                    <p class="tickets-slider-p">A place to quench your thirst for music</p>
+                    <p class="tickets-slider-p-scnd">Party out with us for three days</p>
+                    <p class="tickets-slider-lorem"><span class="slider-lorem-span">Lorem ipsum dolor sit amet</span> consecettur adip isicing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="learn-more-tickets learn-more-reserve" href="#">Learn More</a>
+                  </div>
+                  <div class="carousel-item tickets-item">
+                    <p class="tickets-slider-p">A place to quench your thirst for music</p>
+                    <p class="tickets-slider-p-scnd">Party out with us for three days</p>
+                    <p class="tickets-slider-lorem"><span class="slider-lorem-span">Lorem ipsum dolor sit amet</span> consecettur adip isicing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="learn-more-tickets learn-more-reserve" href="#">Learn More</a>
+                  </div>
+                </div>
+                <div class="ticket-btns">
+                  <div>
+                  <button class="carousel-control-prev tickets-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <div>
+                      <img src="./images/tickets-arrow-left.png" alt="">
+                    </div>
+                  </button>
+                </div>
+                <div class="tickets-arrow-right">
+                  <button class="carousel-control-next tickets-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <img src="./images/tickets-arrow-right.png" alt="">
+                  </button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 tickets-scnd-col-bg">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="tickets-last-part">
+    </section>
+
+
     <script src="./js/bootstrap.js"></script>
 </body>
 </html>
 
-<!-- TIME 12:30:13:30 -->
-<!-- TIME 17:00 -->
-
-<!-- <p class="slider-diagonal-p">A place to quench your thirst for music</p>
-                  <p class="slider-first-lorem"><span class="slider-lorem-span">Lorem ipsum dolor sit amet</span> consecettur adip isicing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua</p> -->
+<!-- TIME 12:30-13:30 -->
+<!-- TIME 17:00-19:00 -->
