@@ -416,6 +416,11 @@ font-weight: 600;
 .learn-more-reserve {
     margin-top: 70px;
 }
+.learn-more-reserve:hover,
+.learn-more-reserve:active {
+    margin-top: 65px;
+    margin-bottom: 5px;
+}
 .tickets-arrow-right {
     margin-left: auto;
 }
@@ -424,4 +429,40 @@ font-weight: 600;
     height: 230px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* -------------------------------------- */
+/* no-tomorrow-party */
+/* -------------------------------------- */
+.no-tomorrow-party {
+    padding: 150px 0;
+    background-image: url(./images/no-tomorrow-stroke.png), url(./images/no-tomorrow-grunge.png), url(./images/no-tomorrow-stroke2.png);
+    background-position: left, top right, bottom right;
+    background-repeat: no-repeat;
+}
+.no-tomorrow-party h2 {
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 96px;
+    max-width: 376px;
+    margin: 0 auto;
+}
+.party-span {
+    color: #9913e1;
+}
+.no-tomorrow-col {
+    display: flex;
+}
+.no-tomorrow-lorem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400; 
+    max-width: 409px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.no-tomorrow-p {
+    margin: 15px 0 0 auto;
 }
