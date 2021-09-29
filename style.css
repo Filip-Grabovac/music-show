@@ -17,7 +17,7 @@ body {
 /* header, nav */
 /* -------------------------------------- */
 .header-scnd-part {
-    background-image: url(./images/singer.gif);
+    background-image: url(./images/singer.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -39,7 +39,7 @@ nav ul {
     margin-right: 0;
 }
 .header-first-part {
-    background-image: url(./images/paper-tear.gif);
+    background-image: url(./images/paper-tear.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -136,7 +136,8 @@ margin: 0 auto;
     background-repeat: no-repeat;
     padding: 80px 0;
 }
-.party-heart h2 {
+.party-heart h2,
+.party-heart-out h2 {
     font-family: 'Staatliches', cursive;
     font-weight: 100;
     font-size: 96px;
@@ -430,6 +431,13 @@ font-weight: 600;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.tickets-bg h2::after {
+    content: url(./images/stroke-after.png);
+    top: 167px;
+    right: 217px;
+    position: absolute;
+    z-index: -1;
+}
 /* -------------------------------------- */
 /* no-tomorrow-party */
 /* -------------------------------------- */
@@ -465,4 +473,75 @@ font-weight: 600;
 }
 .no-tomorrow-p {
     margin: 15px 0 0 auto;
+}
+/* -------------------------------------- */
+/* party-heart-out-section */
+/* -------------------------------------- */
+.party-heart-out .col-md-6:nth-child(1) {
+    background-image: url(./images/party-heart-bg.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.party-heart-out .col-md-6:nth-child(2) {
+    background-image: url(./images/party-heart-out-paper-tear.png), url(./images/arrows.png);
+    background-repeat: no-repeat;
+    background-position: right, center;
+background-color: #9913e1;
+padding-top: 240px;
+position: relative;
+}
+.party-heart-out h2 {
+    max-width: 410px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 70px;
+}
+.party-heart-out .tickets-lorem-span {
+    color: #fff;
+    display: block;
+}
+.party-heart-out p {
+    max-width: 367px;
+}
+.party-heart-out .learn-more-btn {
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.party-heart-out .learn-more-btn:hover,
+.party-heart-out .learn-more-btn:active {
+    margin-top: 40px;
+}
+/* -------------------------------------- */
+/* third-slider */
+/* -------------------------------------- */
+.third-slider {
+    background-image: url(./images/third-slider-bg1.png), url(./images/third-slider-bg2.png);
+    height: 722px;
+    background-repeat: no-repeat;
+    background-position: top left, top right;
+    padding-top: 136px;
+}
+.star-icon {
+    margin: 0 auto;
+    display: block;
+}
+.third-slider h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Staatliches', cursive;
+    color: #000;
+    margin-top: 47px;
+}
+.john-span {
+    color: #9913e1;
+}
+.third-slider .no-tomorrow-lorem {
+    margin-top: 58px;
+}
+.stroke-after {
+    margin: 0 auto;
+    display: block;
+    margin-top: 35px;
 }
