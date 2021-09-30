@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #e0e0e0;
+    background-color: #e1e1e1 !important;
 }
 @font-face {
     font-family: "impact-regular";
@@ -45,7 +45,6 @@ nav ul {
     background-position: top left;
     position: relative;
     padding-bottom: 100px;
-    
 }
 .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
@@ -73,7 +72,7 @@ text-transform: uppercase;
 padding: 3px 20px;
 margin-bottom: 0;
 font-weight: 600;
-margin-bottom: 10px;
+margin-bottom: 24px;
 }
 .diagonal-p-scnd{
 font-family: 'Monda', sans-serif;
@@ -97,7 +96,6 @@ color: #000;
 font-weight: 400;
 }
 .music-show-part {
-text-align: center;
 max-width: 720px;
 margin: 0 auto;
 }
@@ -125,6 +123,20 @@ margin: 0 auto;
 .about:hover,
 .about:active {
     color: #831adc !important; 
+}
+.diagonal-part {
+    max-width: 538px;
+    margin: 0 auto;
+}
+.content-first {
+    display: inline-block;
+    margin-right: 50px;
+}
+.content-scnd {
+    display: inline-block;
+}
+.music-show-content {
+    display: flex;
 }
 /* -------------------------------------- */
 /* party-heart */
@@ -186,10 +198,14 @@ margin: 0 auto;
     border: 4px solid #6e0da2;
     color: #fff;
     margin-top: 46px;
+    margin-bottom: 5px;
 }
 /* -------------------------------------- */
 /* first-slider */
 /* -------------------------------------- */
+.first-slider-button{
+    display: flex;
+}
 .first-slider {
     background-image: url(./images/paper-tear-slider.png), 
     url(./images/grunge-left-slider.png),
@@ -258,10 +274,16 @@ margin-top: 50px;
     font-weight: bold;
     color: #831adc;
     font-family: 'Monda', sans-serif;
-    margin-right: 20px;
+    margin-right: 22px;
 }
 .slider-row{
     margin-top: 50px;
+}
+.first-slider-btn{
+    display: inline-block !important;
+}
+.page-div {
+    margin-left: auto;
 }
 /* -------------------------------------- */
 /* tickets */
@@ -402,7 +424,6 @@ font-weight: 600;
 .reserve-bg {
     background-image: url(./images/tickets-grey-circle.png);
     background-repeat: no-repeat;
-    height: 225px;
     background-position: center;
 }
 .tickets-button {
@@ -431,12 +452,21 @@ font-weight: 600;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.tickets-bg h2 {
+    max-width: 576px;
+    margin: 0 auto;
+}
+.tickets-bg {
+    padding-top: 145px;
+}
 .tickets-bg h2::after {
-    content: url(./images/stroke-after.png);
-    top: 167px;
-    right: 217px;
-    position: absolute;
-    z-index: -1;
+    content: "";
+width: 369px;
+height: 30px;
+background-image: url("./images/stroke-after.png");
+background-position: center;
+display: block;
+margin: -38px 0 44px auto;
 }
 /* -------------------------------------- */
 /* no-tomorrow-party */
@@ -488,39 +518,53 @@ font-weight: 600;
     background-repeat: no-repeat;
     background-position: right, center;
 background-color: #9913e1;
-padding-top: 240px;
+padding-top: 64px;
 position: relative;
 }
 .party-heart-out h2 {
-    max-width: 410px;
+    max-width: 454px;
     margin: 0 auto;
     display: block;
     margin-bottom: 70px;
 }
 .party-heart-out .tickets-lorem-span {
     color: #fff;
-    display: block;
 }
 .party-heart-out p {
     max-width: 367px;
 }
 .party-heart-out .learn-more-btn {
-    margin: 0 auto;
     margin-top: 45px;
 }
 .party-heart-out .learn-more-btn:hover,
 .party-heart-out .learn-more-btn:active {
     margin-top: 40px;
 }
+.party-h2-bg {
+    background-image: url(./images/arrows-first.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    max-width: 495px;
+    margin: 0 auto;
+    padding-top: 128px;
+    padding-left: 85px;
+}
+.party-lorem-bg {
+    background-image: url(./images/arrows-second.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 70px;
+    max-width: 378px;
+    margin: 0 auto;
+}
 /* -------------------------------------- */
 /* third-slider */
 /* -------------------------------------- */
 .third-slider {
     background-image: url(./images/third-slider-bg1.png), url(./images/third-slider-bg2.png);
-    height: 722px;
     background-repeat: no-repeat;
     background-position: top left, top right;
-    padding-top: 136px;
+    padding: 260px 0 215px 0;
 }
 .star-icon {
     margin: 0 auto;
