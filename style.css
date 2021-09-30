@@ -615,7 +615,7 @@ textarea::placeholder {
     width: 440px;
     margin: 0 auto;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 23px;
     background: #fff;
     border: none;
     margin-top: 30px;
@@ -634,4 +634,58 @@ textarea::placeholder {
     background-color: #9913e1;
     color: #fff;
     margin-top: 25px;
+}
+/* -------------------------------------- */
+/* footer */
+/* -------------------------------------- */
+footer {
+    padding: 150px 0;
+    background-image: url(./images/footer-dots-bg.png), url(./images/footer-paper-tear.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+footer h4 {
+    font-family: 'Monda', sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0px;
+}
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer ul li {
+    margin-top: 30px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    transition: 0.2s;
+}
+footer ul li a:hover,
+footer ul li a:active {
+    color: rgb(43, 43, 43);
+}
+.footer-learn-more-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid #9913e1;
+    padding: 15px 70px;
+    border-radius: 26px;
+    font-weight: bold;
+    color: #9913e1;
+    font-size: 17px;
+    display: block;
+    transition: 0.2s;
+    text-align: center;
+}
+.footer-learn-more-btn:hover,
+.footer-learn-more-btn:active {
+    color: #fff;
+    background-color: #9913e1;
+    margin-top: -5px;
+}
+.footer-icon {
+    font-size: 17px;
 }
