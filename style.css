@@ -6,8 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+html,body {
     background-color: #e1e1e1 !important;
+    overflow-x:hidden;
 }
 @font-face {
     font-family: "impact-regular";
@@ -147,6 +148,7 @@ margin: 0 auto;
     background-position: left bottom;
     background-repeat: no-repeat;
     padding: 80px 0;
+    background-size: 391px;
 }
 .party-heart h2,
 .party-heart-out h2 {

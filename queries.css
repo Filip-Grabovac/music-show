@@ -57,6 +57,30 @@
     .navbar-light .navbar-toggler {
         border: 1px solid #831adc;
     }
+    .party-heart h2 {
+        font-size: 83px;
+    }
+    .party-left {
+        margin-left: 0;
+    }
+    .party-first-col {
+        justify-content: center;
+    }
+    .party-heart-lorem {
+        margin: 0 auto;
+    }
+    .learn-more-btn {
+        margin: 51px auto 0 auto;
+    }
+    .party-heart {
+        background-size: 250px;
+    }
+    .slider-diagonal-p-scnd {
+        text-align: center;
+    }
+    .slider-diagonal-p {
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 767px) {
     .music-show-img {
@@ -73,11 +97,47 @@
         padding-right: 3px;
         padding-left: 3px;
     }
+    .party-heart {
+        background-size: 196px;
+    }
+    .party-heart-lorem {
+        max-width: 385px;
+    }
+    .slider-first-lorem {
+        margin: 60px auto 0 auto;
+    }
+    .slider-diagonal-p {
+        margin: 15px 0 0 0;
+    }
+    .slider-first-col {
+        background-position: center;
+        height: 203px;
+    }
+    .first-slider-button {
+        margin-bottom: 23px;
+    }
+    .slider-diagonal-p-scnd {
+        margin: 43px auto 0 auto;
+    }
+    .slider-scnd-lorem {
+        max-width: 337px;
+        margin: 40px auto 0 auto;
+    }.first-slider {
+        padding: 120px 0;
+    }
 }
 @media only screen and (max-width: 575px) {
     .header-scnd-part {
         height: 500px;
         background-size: cover;
+    }
+    .learn-more-btn {
+        padding: 8px 26px;
+        font-size: 16px;
+        max-width: 215px;
+        text-align: center;
+    }.party-heart {
+        padding: 80px 0 112px 0;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -86,5 +146,17 @@
         top: 68px;
         left: 0;
         padding: 0 10px;
+    }
+    .party-heart h2 {
+        font-size: 62px;
+        margin: 0 auto;
+        max-width: 250px;
+        text-align: center;
+    }
+    .party-heart-lorem {
+        text-align: center;
+    }
+    .first-slider-container {
+        padding: 0;
     }
 }
