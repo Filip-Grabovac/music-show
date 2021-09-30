@@ -545,3 +545,93 @@ position: relative;
     display: block;
     margin-top: 35px;
 }
+/* -------------------------------------- */
+/* newsletter */
+/* -------------------------------------- */
+.newsletter .col-md-6:nth-child(1) {
+    background-color: #9913e1;
+    background-image: url(./images/newsletter-paper-tear.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.newsletter .col-md-6:nth-child(2) {
+    background-image: url(./images/newsetter-right-bg.png);
+    height: 897px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.newsletter h2 {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 96px;
+    color: #000;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+.news-span {
+    color: #fff;
+}
+.newsletter-form input[type="text"] {
+    width: 440px;
+    border: 3px solid #fff;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 23px;
+    padding-left: 20px;
+    outline: none;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.newsletter-form input[type="text"]::placeholder {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Monda', sans-serif;
+    font-weight: bold;
+}
+textarea {
+    width: 440px;
+    background: transparent;
+    border-radius: 23px;
+    border: 3px solid #fff;
+    padding: 15px 0 0 15px;
+    outline: none;
+    color: #fff;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.newsletter-form {
+    text-align: center;
+}
+textarea::placeholder {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Monda', sans-serif;
+    font-weight: bold; 
+}
+.confirm-btn {
+    display: block;
+    width: 440px;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    margin-top: 30px;
+    color: #9913e1;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Monda', sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
+    border: 3px solid #fff;
+}
+.confirm-btn:hover,
+.confirm-btn:active {
+    background-color: rgb(204, 204, 204);
+    border: 3px solid #fff;
+    background-color: #9913e1;
+    color: #fff;
+    margin-top: 25px;
+}
