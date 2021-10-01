@@ -612,6 +612,7 @@ position: relative;
     height: 897px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .newsletter h2 {
     text-align: center;
