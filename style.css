@@ -470,6 +470,12 @@ background-position: center;
 display: block;
 margin: -38px 0 44px auto;
 }
+.tickets-scnd-col {
+    background-position: center;
+}
+.tickets-first-col {
+    background-position: center;
+}
 /* -------------------------------------- */
 /* no-tomorrow-party */
 /* -------------------------------------- */

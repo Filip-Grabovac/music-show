@@ -82,6 +82,18 @@
         text-align: center;
     }
 }
+@media only screen and (max-width: 899px) {
+    .tickets-bg {
+        padding-top: 100px;
+    }
+    .learn-more-tickets {
+        padding: 13px 8px;
+        text-align: center;
+    }
+    .tickets-lorem {
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 767px) {
     .music-show-img {
         width: 283px;
@@ -122,8 +134,48 @@
     .slider-scnd-lorem {
         max-width: 337px;
         margin: 40px auto 0 auto;
-    }.first-slider {
+    }
+    .first-slider {
         padding: 120px 0;
+    }
+    .tickets-third-col {
+        height: 576px;
+    }
+    .tickets-container {
+        position: relative;
+    }
+    .reserve-img1 {
+        margin: 0 auto;
+        display: block;
+    }
+    .tickets-content-row {
+        flex-direction: column;
+    }
+    .reserve-col {
+    margin-bottom: 18px;
+    }
+    .tickets-bg {
+        margin-bottom: 100px;
+    }
+    .learn-more-tickets {
+        padding: 13px 8px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ticket-btns {
+        margin: 43px auto 51px auto;
+    }
+    bg {
+        padding-top: 167px;
+    }
+    .tickets-scnd-col-bg {
+        height: 576px;
+        background-position: top;
+    }
+}
+@media only screen and (max-width: 599px) {
+    .tickets-bg h2::after {
+        margin: -38px auto 44px auto;
     }
 }
 @media only screen and (max-width: 575px) {
@@ -158,5 +210,27 @@
     }
     .first-slider-container {
         padding: 0;
+    }
+    .slider-first-lorem {
+        text-align: center;
+    }
+    .slider-scnd-lorem {
+        text-align: center;
+    }
+    .reserve-col {
+        padding-right: 10px !important;
+    }
+    .tickets-content-row h2 {
+        font-size: 72px;
+    }
+    .tickets-bg {
+        padding-top: 74px;
+    }
+    .tickets-slider-p-scnd {
+        padding: 3px 0px;
+        text-align: center;
+    }
+    .tickets-slider-p {
+        padding: 3px 0px;
     }
 }
