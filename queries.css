@@ -81,6 +81,17 @@
     .slider-diagonal-p {
         text-align: center;
     }
+    .no-tomorrow-col {
+        display: block;
+    }
+    .no-tomorrow-party h2 {
+        font-size: 85px;
+    }
+    .tickets-slider-p-scnd {
+        padding: 3px 0px;
+        text-align: center;
+        margin: 20px auto 0 auto;
+    }
 }
 @media only screen and (max-width: 899px) {
     .tickets-bg {
@@ -232,5 +243,12 @@
     }
     .tickets-slider-p {
         padding: 3px 0px;
+    }
+    .no-tomorrow-party h2 {
+        font-size: 62px;
+        text-align: center;
+    }
+    .no-tomorrow-party {
+        padding: 123px 0;
     }
 }
