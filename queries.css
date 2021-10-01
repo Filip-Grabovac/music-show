@@ -37,6 +37,18 @@
     .music-show-img {
         width: 374px;
     }
+    .newsletter-form input[type="text"] {
+        width: 359px;
+    }
+    textarea {
+        width: 359px;
+    }
+    .confirm-btn {
+        width: 359px;
+    }
+    .newsletter-h2 {
+        font-size: 81px;
+    }
 }
 @media only screen and (max-width: 991px){
     .navbar-custom {
@@ -194,9 +206,9 @@
     .ticket-btns {
         margin: 43px auto 51px auto;
     }
-    bg {
+    /* .bg {
         padding-top: 167px;
-    }
+    } */
     .tickets-scnd-col-bg {
         height: 576px;
         background-position: top;
@@ -209,6 +221,19 @@
     }
     .party-lorem-bg {
         margin: 0px auto 64px auto;
+    }
+    .learn-more-btn {
+        margin: 51px auto 0 auto;
+    }
+    .newsletter-form input[type="text"] {
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+    .newsletter .col-md-6:nth-child(1) {
+        padding-bottom: 66px;
+    }
+    .newsletter .col-md-6:nth-child(2) {
+        height: 576px;
     }
 }
 @media only screen and (max-width: 599px) {
@@ -320,5 +345,32 @@
     }
     .no-tomorrow-lorem {
         max-width: 221px;
+    }
+    .newsletter-form {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .newsletter-form input[type="text"] {
+        width: 100%;
+        font-size: 14px;
+    }
+    .newsletter-form input[type="text"]::placeholder {
+        font-size: 14px;
+    }
+    textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+    textarea::placeholder {
+        font-size: 14px;
+    }
+    .confirm-btn {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 393px) {
+    .newsletter-h2 {
+        font-size: 63px;
     }
 }

@@ -614,17 +614,6 @@ position: relative;
     background-repeat: no-repeat;
     background-position: center;
 }
-.newsletter h2 {
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    font-size: 96px;
-    color: #000;
-    margin-top: 130px;
-    margin-bottom: 60px;
-}
-.news-span {
-    color: #fff;
-}
 .newsletter-form input[type="text"] {
     width: 440px;
     border: 3px solid #fff;
@@ -688,6 +677,18 @@ textarea::placeholder {
     background-color: #9913e1;
     color: #fff;
     margin-top: 25px;
+}
+.newsletter-h2 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 96px;
+    font-family: 'Staatliches', cursive;
+}
+.newsletter-col {
+    text-align: center;
+}
+.news-span {
+    color: #fff;
 }
 /* -------------------------------------- */
 /* footer */
