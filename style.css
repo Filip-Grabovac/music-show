@@ -520,6 +520,7 @@ margin: -38px 0 44px auto;
     height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .party-heart-out .col-md-6:nth-child(2) {
     background-image: url(./images/party-heart-out-paper-tear.png), url(./images/arrows.png);
