@@ -746,3 +746,122 @@ footer ul li a:active {
 .footer-icon {
     font-size: 17px;
 }
+
+
+/* -------------------------------------- */
+/* EVENTS */
+/* -------------------------------------- */
+.events-main {
+    padding: 100px 0;
+    background-image: url(./images/reserve-paper-tear.png), url(./images/tickets-grunge.png);
+    background-repeat: no-repeat;
+    background-position: top left, top right;
+}
+.event-link {
+    margin-right: 67px !important;
+}
+.event-link:hover,
+.event-link:active {
+    color: #fff !important;
+}
+.about {
+    margin-right: 0 !important;
+}
+.event-nav-container {
+    background-image: url(./images/tickets-img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #9913e1;
+}
+.events-h2 {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.events-left {
+    display: flex;
+    align-items: center;
+}
+.event-nav {
+    padding: 50px 70px !important;
+}
+.event-nav-container {
+    padding-bottom: 65px;
+}
+.upcoming-h2 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+.upcoming-span {
+    color: #9913e1;
+}
+.date-div{
+    background-color: #9913e1;
+    text-align: center;
+    align-self: center;
+    padding: 61px 13px;
+}
+.date {
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    max-width: 79px;
+    text-align: center;
+    color: #fff;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+.event-lorem {
+    margin-left: -2px;
+    padding: 20px;
+    width: 669px;
+    flex: 2;
+}
+.event-content {
+    display: inline-block;
+}
+.event-btn {
+    align-self: center;
+    margin-left: auto;
+    width: 160px;
+    flex: 1;
+}
+.events-learn-more {
+    display: inline-block;
+    text-decoration: none;
+    color: #831adc;
+    border: 4px solid #831adc;
+    padding: 13px 24px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Monda', sans-serif;
+    font-size: 12px;
+    transition: 0.2s;
+    text-align: center;
+}
+.events-learn-more:hover,
+.events-learn-more:active {
+    background-color: #6e0da2;
+    border: 4px solid #6e0da2;
+    color: #fff;
+    margin-bottom: 7px;
+}
+.event-section{
+    display: flex;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.53); 
+box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.53);
+}
+.events-right {
+    margin-top: 20px;
+}
+.event-footer{
+    padding: 100px 0;
+}
