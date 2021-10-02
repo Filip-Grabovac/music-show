@@ -865,3 +865,42 @@ box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.53);
 .event-footer{
     padding: 100px 0;
 }
+
+
+/* -------------------------------------- */
+/* ABOUT */
+/* -------------------------------------- */
+.about-main {
+    padding: 100px 0;
+    background-image: url(./images/grunge-rightt-slider.png), url(./images/no-tomorrow-stroke.png);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+}
+.about-col {
+    text-align: center;
+}
+.about-col-bg{
+    background-color: #fff;
+    max-width: 280px;
+    margin: 0 auto;
+    padding-bottom: 118px;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.53); 
+box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.53);
+}
+.about-col-bg p {
+    max-width: 200px;
+    margin: 0 auto;
+}
+.about-col-bg h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    margin: 36px 0;
+}
+.about-img-part {
+    max-width: 280px;
+    margin: 0 auto;
+}
+.about-purple {
+    color: #9913e1;
+}
