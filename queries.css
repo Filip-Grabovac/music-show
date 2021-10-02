@@ -32,6 +32,12 @@
     .party-heart-out h2 {
         margin-bottom: 45px;
     }
+    .party-heart h2, .party-heart-out h2 {
+        font-size: 73px;
+    }
+    .party-heart-out .col-md-6:nth-child(2) {
+        padding-top: 132px;
+    }
 }
 @media only screen and (max-width: 1024px) {
     .music-show-img {
@@ -122,6 +128,12 @@
         max-width: 220px;
         text-align: center;
     }
+    .party-heart-out .col-md-6:nth-child(2) {
+        padding-top: 33px;
+    }
+    .party-heart-out h2 {
+        font-size: 73px;
+    }
 }
 @media only screen and (max-width: 899px) {
     .tickets-bg {
@@ -206,9 +218,6 @@
     .ticket-btns {
         margin: 43px auto 51px auto;
     }
-    /* .bg {
-        padding-top: 167px;
-    } */
     .tickets-scnd-col-bg {
         height: 576px;
         background-position: top;
@@ -234,6 +243,24 @@
     }
     .newsletter .col-md-6:nth-child(2) {
         height: 576px;
+    }
+    footer {
+        text-align: center;
+        padding:  100px 0 180px 0;
+    }
+    .footer-learn-more-btn {
+        max-width: 241px;
+        margin: 0 auto;
+    }
+    footer ul li {
+        margin-top: 19px;
+    }
+    footer h4 {
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+    .party-h2-bg {
+        padding-left: 76px;
     }
 }
 @media only screen and (max-width: 599px) {
@@ -368,9 +395,18 @@
     .confirm-btn {
         width: 100%;
     }
+    .party-heart-out h2 {
+        text-align: center;
+    }
+    .no-tomorrow-party {
+        background-size: 187px, auto, 199px;
+    }
 }
 @media only screen and (max-width: 393px) {
     .newsletter-h2 {
         font-size: 63px;
+    }   
+    .tickets-slider-lorem {
+        max-width: 227px;
     }
 }

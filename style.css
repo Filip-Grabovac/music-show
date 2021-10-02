@@ -556,7 +556,7 @@ position: relative;
     max-width: 495px;
     margin: 0 auto;
     padding-top: 128px;
-    padding-left: 85px;
+    padding-left: 59px;
 }
 .party-lorem-bg {
     background-image: url(./images/arrows-second.png);
@@ -606,6 +606,7 @@ position: relative;
     background-image: url(./images/newsletter-paper-tear.png);
     background-repeat: no-repeat;
     background-position: bottom left;
+    padding-top: 120px;
 }
 .newsletter .col-md-6:nth-child(2) {
     background-image: url(./images/newsetter-right-bg.png);
@@ -683,6 +684,7 @@ textarea::placeholder {
     color: #000;
     font-size: 96px;
     font-family: 'Staatliches', cursive;
+    margin-bottom: 60px;
 }
 .newsletter-col {
     text-align: center;
@@ -726,7 +728,7 @@ footer ul li a:active {
     text-decoration: none;
     text-transform: uppercase;
     border: 3px solid #9913e1;
-    padding: 15px 70px;
+    padding: 15px 0;
     border-radius: 26px;
     font-weight: bold;
     color: #9913e1;
