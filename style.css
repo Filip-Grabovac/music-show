@@ -752,17 +752,17 @@ footer ul li a:active {
 /* EVENTS */
 /* -------------------------------------- */
 .events-main {
-    padding: 100px 0;
+    padding: 100px 0 60px 0;
     background-image: url(./images/reserve-paper-tear.png), url(./images/tickets-grunge.png);
     background-repeat: no-repeat;
     background-position: top left, top right;
 }
 .event-link {
-    margin-right: 67px !important;
+    color: #000 !important;
 }
 .event-link:hover,
 .event-link:active {
-    color: #fff !important;
+    color: #000 !important;
 }
 .about {
     margin-right: 0 !important;
@@ -790,7 +790,7 @@ footer ul li a:active {
     padding: 50px 70px !important;
 }
 .event-nav-container {
-    padding-bottom: 65px;
+    padding-bottom: 36px;
 }
 .upcoming-h2 {
     font-family: 'Staatliches', cursive;
@@ -865,7 +865,20 @@ box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.53);
 .event-footer{
     padding: 100px 0;
 }
-
+.events-main h4 {
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 19px;
+}
+.event-lorem-span {
+    color: #9913e1;
+}
+.events-first-lorem{
+    margin-bottom: 5px;
+}
+.events-collapse-bg{
+    margin-left: auto;
+}
 
 /* -------------------------------------- */
 /* ABOUT */

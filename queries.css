@@ -5,6 +5,9 @@
     .navbar-nav .nav-link {
         margin-right: 38px;
     }
+    .events-learn-more {
+        padding: 13px 17px;
+    }
 }
 @media only screen and (max-width: 1085px) {
     .content-scnd {
@@ -134,6 +137,12 @@
     .party-heart-out h2 {
         font-size: 73px;
     }
+    .events-left {
+        justify-content: center;
+    }
+    .event-link {
+        color: #000 !important;
+    }
 }
 @media only screen and (max-width: 899px) {
     .tickets-bg {
@@ -262,10 +271,41 @@
     .party-h2-bg {
         padding-left: 76px;
     }
+    .events-main {
+        padding: 100px 0 25px 0;
+    }
+    .events-collapse-bg{
+        background-color: rgba(0, 0, 0, 0.842);
+        display: inline-block !important;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .events-navbar-custom{
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .event-nav-container {
+        padding-bottom: 28px;
+        padding-top: 145px;
+    }
+    .event-link {
+        color: #fff !important;
+    }
+    .event-link {
+        margin-left: 10px;
+    }
+    .event-dropdown {
+        border: 1px solid #fff !important;
+    }
 }
 @media only screen and (max-width: 599px) {
     .tickets-bg h2::after {
         margin: -38px auto 44px auto;
+    }
+    .event-nav {
+        padding: 50px 10px !important;
     }
 }
 @media only screen and (max-width: 575px) {
@@ -304,6 +344,40 @@
         display: flex;
         max-width: 80%;
         margin: 20px auto 0 auto;
+    }
+    .event-section {
+        flex-direction: column;
+    }
+    .date-div {
+        width: 100%;
+    }
+    .date {
+        margin: 0 auto;
+    }
+    .event-lorem {
+        margin-left: -2px;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .date-div {
+        padding: 42px 13px;
+    }
+    .date {
+        font-size: 39px;
+        max-width: 100%;
+    }
+    .events-main h4 {
+        margin-bottom: 20px;
+    }
+    .event-btn {
+        align-self: center;
+        width: 160px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .event-section {
+        padding-bottom: 20px;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -401,6 +475,12 @@
     .no-tomorrow-party {
         background-size: 187px, auto, 199px;
     }
+    .events-main {
+        background-size: 264px, auto;
+    }
+    .upcoming-h2 {
+        font-size: 77px;
+    }
 }
 @media only screen and (max-width: 393px) {
     .newsletter-h2 {
@@ -410,3 +490,6 @@
         max-width: 227px;
     }
 }
+/* 
+
+*/
