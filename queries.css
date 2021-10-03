@@ -155,6 +155,9 @@
     .tickets-lorem {
         text-align: center;
     }
+    .tickets-bg h2::after {
+        margin: -38px auto 44px auto;
+    }
 }
 @media only screen and (max-width: 767px) {
     .music-show-img {
@@ -299,6 +302,17 @@
     .event-dropdown {
         border: 1px solid #fff !important;
     }
+    .about-col-bg {
+        margin-bottom: 75px;
+    }
+    .about-main {
+        padding: 100px 0 0px 0;
+}
+.event-footer {
+    padding: 79px 0 180px 0;
+}
+.about-footer {
+    padding: 79px 0 180px 0;
 }
 @media only screen and (max-width: 599px) {
     .tickets-bg h2::after {
